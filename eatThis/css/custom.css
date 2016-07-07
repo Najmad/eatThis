@@ -1,0 +1,142 @@
+body{
+	background 	: url(../Images/plated.png) center center fixed no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height                  : 50vh;
+    width                   : 1000px;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(../fonts/strong.ttf);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(../fonts/blacksword.otf);
+}
+
+@font-face {
+  font-family: font3;
+  src: url(../fonts/beyond.ttf);
+}
+
+input[type=text] {
+    width: 235px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    height: 100px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 8px;
+    font-size: 14pt;
+    font-family: font3;
+    border: solid #560A14 3px;
+    font-weight: bolder;
+    color: #560A14;
+
+
+}
+
+input[type=text1] {
+    width: 235px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    height: 100px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 8px;
+    font-size: 14pt;
+    font-family: font3;
+    border: solid #560A14 3px;
+    font-weight: bolder;
+    color: #560A14;
+
+
+
+}
+
+input[type=text2] {
+    width: 235px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    height: 100px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 8px;
+    font-size: 16pt;
+    font-family: font3;
+    border: solid #560A14 3px;
+    font-weight: bolder;
+    color: #560A14;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 25%;
+}
+
+input[type=text1]:focus {
+    width: 25%;
+}
+
+input[type=text2]:focus {
+    width: 25%;
+}
+
+
+h1{
+	color: #560A14;
+    font-size: 90pt;
+    font-weight: bold;
+    text-align: right;
+    font-family: font2;
+    margin-right: 120px;
+}
+
+button{
+    font-family: font2;
+    width: 235px;
+    height: 100px;
+    font-size: 20pt;
+    margin-left: 9px;
+    border: solid #560A14 3px;
+    background-color: #560A14;
+    color: #fff9dc;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 15px 40px 0 rgba(0,0,0,0.19);
+}
+
+
+.container{
+    position: fixed;
+    display: inline;
+    overflow: auto;
+    width: 1180px;
+    margin-top: 190px;
+    margin-left: 135px;
+    
+    
+
+}
+
+span.glyphicon {
+    font-size: 25pt;
+    color: #560A14;
+
+}
+
+.container2{
+    font-family: ;
+    margin-right: 100px;
+    margin-left: 75px;
+    margin-top: 350px;
+    font-size: 25pt;
+
+}
